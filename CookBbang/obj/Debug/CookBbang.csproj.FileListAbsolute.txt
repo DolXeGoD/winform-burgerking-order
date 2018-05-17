@@ -1,0 +1,226 @@
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\BLT뉴올리언스치킨버거.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\BLT롱치킨버거.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\갈릭스테이크버거.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\롱킹.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\불고기버거.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\불고기와퍼.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\불고기와퍼주니어.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\오리지날롱치킨버거.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\와퍼.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\와퍼주니어.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\치즈버거.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\치즈와퍼.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\치즈와퍼주니어.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\콰트로치즈와퍼.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\콰트로치즈와퍼주니어.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\통새우스테이크버거.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\통새우와퍼.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\통새우와퍼주니어.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\햄버거.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\image1.PNG
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\image2.PNG
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\CookBbang.exe.config
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\CookBbang.exe
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\CookBbang.pdb
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\obj\Debug\CookBbang.Form1.resources
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\obj\Debug\CookBbang.Properties.Resources.resources
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\obj\Debug\CookBbang.csproj.GenerateResource.Cache
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\obj\Debug\CookBbang.exe
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\obj\Debug\CookBbang.pdb
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\2000치킨버거.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\뉴올리언스치킨버거.jpg
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\obj\Debug\CookBbang.csprojResolveAssemblyReference.cache
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\통새우와퍼 - 복사본.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\drink_active.PNG
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\drink_deactive.PNG
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkImg\미닛메이드.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkImg\스프라이트.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkImg\코카콜라.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkImg\코카콜라제로.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkImg\환타오렌지.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkImg\아메리카노.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkImg\카페라떼.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkImg\핫초코.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkImg\생수(순수).jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\2000치즈버거.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\2000치킨버거.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\BLT뉴올리언스치킨버거.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\BLT롱치킨버거.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\갈릭스테이크버거.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\뉴올리언스치킨버거.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\롱킹.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\불고기와퍼.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\불고기와퍼주니어.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\오리지널롱치킨버거.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\와퍼.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\와퍼주니어.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\치즈버거.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\치즈와퍼.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\치즈와퍼주니어.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\콰트로치즈와퍼.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\콰트로치즈와퍼주니어.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\통새우스테이크버거.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\통새우와퍼.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\통새우와퍼주니어.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\햄버거.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerImg\2000치즈버거.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\불고기버거.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\미닛메이드.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\생수(순수).jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\아메리카노.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\카페라떼.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\코카콜라.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\코카콜라제로.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\핫초코.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\환타오렌지.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\스프라이트.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideImg\너겟킹.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideImg\딸기선데.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideImg\바닐라선데.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideImg\어니언링.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideImg\초코선데.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideImg\치즈프라이.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideImg\치킨프라이.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideImg\컵아이스크림.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideImg\코코넛쉬림프.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideImg\콘샐러드.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideImg\텐더킹.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideImg\프렌치프라이.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\side_active.PNG
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\side_nonactive.PNG
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideBigImg\너겟킹.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideBigImg\딸기선데.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideBigImg\바닐라선데.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideBigImg\어니언링.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideBigImg\초코선데.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideBigImg\치즈프라이.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideBigImg\치킨프라이.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideBigImg\컵아이스크림.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideBigImg\코코넛쉬림프.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideBigImg\콘샐러드.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideBigImg\텐더킹.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\SideBigImg\프렌치프라이.jpg
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\set_active.PNG
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\set_nonactive.PNG
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\Burger_MakingImg\0.png
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\Burger_MakingImg\20.png
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\Burger_MakingImg\40.png
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\Burger_MakingImg\60.png
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\Burger_MakingImg\80.png
+C:\Users\조현재\documents\visual studio 2017\Projects\CookBbang\CookBbang\bin\Debug\images\Burger_MakingImg\100.png
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\MySql.Data.dll
+C:\Users\조현재\Documents\Visual Studio 2017\Projects\CookBbang\CookBbang\bin\Debug\MySql.Data.xml
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\2000치즈버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\2000치킨버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\BLT뉴올리언스치킨버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\BLT롱치킨버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\갈릭스테이크버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\뉴올리언스치킨버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\롱킹.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\불고기버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\불고기와퍼.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\불고기와퍼주니어.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\오리지널롱치킨버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\와퍼.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\와퍼주니어.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\치즈버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\치즈와퍼.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\치즈와퍼주니어.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\콰트로치즈와퍼.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\콰트로치즈와퍼주니어.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\통새우스테이크버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\통새우와퍼.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\통새우와퍼주니어.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerBigImg\햄버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\2000치즈버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\2000치킨버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\BLT뉴올리언스치킨버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\BLT롱치킨버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\갈릭스테이크버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\뉴올리언스치킨버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\롱킹.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\불고기버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\불고기와퍼.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\불고기와퍼주니어.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\오리지날롱치킨버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\와퍼.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\와퍼주니어.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\치즈버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\치즈와퍼.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\치즈와퍼주니어.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\콰트로치즈와퍼.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\콰트로치즈와퍼주니어.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\통새우스테이크버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\통새우와퍼 - 복사본.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\통새우와퍼.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\통새우와퍼주니어.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\BurgerImg\햄버거.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\Burger_MakingImg\0.png
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\Burger_MakingImg\20.png
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\Burger_MakingImg\40.png
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\Burger_MakingImg\60.png
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\Burger_MakingImg\80.png
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\Burger_MakingImg\100.png
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\미닛메이드.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\생수(순수).jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\아메리카노.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\카페라떼.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\코카콜라.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\코카콜라제로.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\스프라이트.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\핫초코.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkBigImg\환타오렌지.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkImg\미닛메이드.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkImg\생수(순수).jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkImg\스프라이트.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkImg\아메리카노.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkImg\카페라떼.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkImg\코카콜라.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkImg\코카콜라제로.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkImg\핫초코.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\DrinkImg\환타오렌지.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\drink_active.PNG
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\drink_deactive.PNG
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\image1.PNG
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\image2.PNG
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\set_active.PNG
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\set_nonactive.PNG
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\side_active.PNG
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\LeftMenuImg\side_nonactive.PNG
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideBigImg\너겟킹.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideBigImg\딸기선데.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideBigImg\바닐라선데.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideBigImg\어니언링.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideBigImg\초코선데.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideBigImg\치즈프라이.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideBigImg\치킨프라이.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideBigImg\컵아이스크림.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideBigImg\코코넛쉬림프.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideBigImg\콘샐러드.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideBigImg\텐더킹.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideBigImg\프렌치프라이.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideImg\너겟킹.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideImg\딸기선데.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideImg\바닐라선데.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideImg\어니언링.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideImg\초코선데.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideImg\치즈프라이.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideImg\치킨프라이.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideImg\컵아이스크림.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideImg\코코넛쉬림프.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideImg\콘샐러드.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideImg\텐더킹.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\images\SideImg\프렌치프라이.jpg
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\CookBbang.exe.config
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\CookBbang.exe
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\CookBbang.pdb
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\MySql.Data.dll
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\bin\Debug\MySql.Data.xml
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\obj\Debug\CookBbang.csprojResolveAssemblyReference.cache
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\obj\Debug\CookBbang.Form1.resources
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\obj\Debug\CookBbang.Properties.Resources.resources
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\obj\Debug\CookBbang.csproj.GenerateResource.cache
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\obj\Debug\CookBbang.csproj.CoreCompileInputs.cache
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\obj\Debug\CookBbang.csproj.CopyComplete
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\obj\Debug\CookBbang.exe
+C:\Users\조현재\Desktop\VS_PRJ_BACKUP\CookBbang\CookBbang\obj\Debug\CookBbang.pdb
