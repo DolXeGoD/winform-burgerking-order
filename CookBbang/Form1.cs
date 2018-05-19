@@ -15,7 +15,7 @@ namespace CookBbang
 {
     public partial class Form1 : Form
     {
-        //세트 제작 시 세 개가 다 선택되었는지 검사하기 위함.
+        //세트 제작 시 세 개가 다 선택되었는지 검사하는 변수.
         bool Burger_isSelected = false;
         bool Drink_isSelected = false;
         bool Side_isSelected = false;
@@ -150,7 +150,7 @@ namespace CookBbang
             }
             else
             {
-                MessageBox.Show("메뉴 선택을 모두 완료한 후 버튼을 눌러 주세요");
+                MessageBox.Show("메뉴 선택을 모두 완료한 후 다시 버튼을 눌러 주세요");
             }
         }
 
@@ -189,11 +189,12 @@ namespace CookBbang
             if(Index > 109)
             {
                 Index = 0;
-                //pgbar1.Value = 0;
+                Invoke(new DoProgressDelegt(() => pgbar1.Value = 0));
             }
         }
         // Thread_Progress 쓰레드에서 PerformStep을 직접 실행하면 다른 작업이 멈추기 때문에 UI가 죽는다, 그렇기 때문에 대리자를 이용하여 PerformStep도 UI단 쓰레드에서 처리하도록 한다.
 
+        //버거가 완성되었을 때 완성된 버거의 데이터를 주문완료 db에 추가한다.
         public void SaveInDB(int Index)
         {
             if (Index > 109)
