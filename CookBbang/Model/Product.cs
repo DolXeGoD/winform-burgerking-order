@@ -19,7 +19,7 @@ namespace CookBbang
             }
             set
             {
-                name = value;
+                name = value;   
                 imgPath = Common.ProductRootPath + name.Replace(" ", string.Empty) + Common.ProductImgExtension;
                 BigImgPath = Common.ProductRootPath + name.Replace(" ", string.Empty) + Common.ProductImgExtension;
             }

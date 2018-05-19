@@ -47,12 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common.cs" />
-    <Compile Include="Data\Burger.cs" />
-    <Compile Include="Data\Product.cs" />
+    <Compile Include="Model\Burger.cs" />
+    <Compile Include="Model\Product.cs" />
     <Compile Include="Data\BurgerData.cs" />
-    <Compile Include="Data\Drink.cs" />
+    <Compile Include="Model\Drink.cs" />
     <Compile Include="Data\DrinkData.cs" />
-    <Compile Include="Data\Side.cs" />
+    <Compile Include="Model\Side.cs" />
     <Compile Include="Data\SideData.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -60,7 +60,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Data\Nutrition.cs" />
+    <Compile Include="Model\Nutrition.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
