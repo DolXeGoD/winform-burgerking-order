@@ -243,7 +243,11 @@ namespace CookBbang
         }
 
 
-        //------- 세부사항 패널 통일 필요 2018.05.18
+        /*
+         ================
+         세부사항 패널 통일 요망
+         ================
+        */
         //단품(사이드)클릭 시 실행되는 단품 세부사항 패널
         private void ShowSideData(Side side)
         {
@@ -299,9 +303,6 @@ namespace CookBbang
         //단품(버거)클릭 시 실행되는 단품 세부사항 패널
         private void ShowBurgerData(Burger burger)
         {
-
-            //menu_panel.Visible = false;
-            //detail_panel.Visible = true;
             PanelClear();
             detail_panel.Visible = true;
 
@@ -311,7 +312,6 @@ namespace CookBbang
             BurgerSide_KrName.Text = burger.Name;
             BurgerSide_Sub.Text = burger.Subscribe;
             BurgerSide_Price.Text = Convert.ToString(burger.price);
-            //label_fat.Text = burger.nutrition.fat;
 
             BNutrition_Kcal.Text = burger.nutrition.Kcal;
             BNutrition_Gram.Text = burger.nutrition.gram;
