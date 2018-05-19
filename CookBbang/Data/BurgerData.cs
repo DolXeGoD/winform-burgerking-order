@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace CookBbang
 {
+    //프로그램이 시작되자마자 Burger 모델로 BurgerData들을 모두 세팅해 List에 넣어둠.
+    //ImgPath는 Name만 넘겨주면 Model에서 set해줌
     public class BurgerData
     {
             public List<Burger> burgers = new List<Burger>
@@ -38,7 +40,7 @@ namespace CookBbang
                 new Burger{EngName="BLT LONG CHICKEN BURGER",Name="BLT롱치킨버거",Subscribe="바삭한 베이컨과 신선한 야채 그리고 담백한 롱~ 치킨패티의 완벽한 조화!",price =4900,nutrition = new Nutrition{Kcal="642",gram="269",protein="28",sodium="1217",saccharid="3",fat="6",caffeine="0"},Category="BeefChicken" },
                 new Burger{EngName="LONG KING",Name="롱 킹",Subscribe="100% 순쇠고기 패티가 두 장! 달콤 상큼한 스위트 사우전드 소스의 완벽한 조화",price =5900,nutrition = new Nutrition{Kcal="545",gram="230",protein="24",sodium="983",saccharid="9.2",fat="9",caffeine="0"},Category="BeefChicken" },
                 
-                //사라짐
+                //단종된 메뉴 -- --
                 //new Burger{EngName="X-TRA CRUNCH CHICKEN",Name="XTRA 크런치 치킨버거",Subscribe="매콤한 치킨, 바삭한 옥수수, 그리고 신선한 토마토와 아삭한 피클까지! ",price ="4,700",nutrition = new Nutrition{Kcal="740",gram="279",protein="22(39)",sodium="1050(52)",saccharid="5.4",fat="5(35)",caffeine="0"},Category="BeefChicken" },
                 //new Burger{EngName="CR0UNCH CHICKEND",Name="크런치치킨",Subscribe="매콤한 치킨과 바삭한 옥수수의 조화, 크런치치킨 ",price ="4,300",nutrition = new Nutrition{Kcal="731",gram="225",protein="22(39)",sodium="1049(52)",saccharid="3.4",fat="5(35)",caffeine="0"},Category="BeefChicken" },
 

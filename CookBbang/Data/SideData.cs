@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace CookBbang
 {
+    //프로그램이 시작되자마자 Side 모델로 SideData들을 모두 세팅해 List에 넣어둠.
+    //ImgPath는 Name만 넘겨주면 Model에서 set해줌
     class SideData
     {
         public List<Side> sides = new List<Side>

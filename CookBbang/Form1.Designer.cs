@@ -143,7 +143,7 @@
             this.Set_EngName = new System.Windows.Forms.Label();
             this.linkLabel6 = new System.Windows.Forms.LinkLabel();
             this.Set_Price = new System.Windows.Forms.Label();
-            this.nowMaking__panel = new System.Windows.Forms.Panel();
+            this.nowMaking_panel = new System.Windows.Forms.Panel();
             this.Making_Picture = new System.Windows.Forms.PictureBox();
             this.pgbar1 = new System.Windows.Forms.ProgressBar();
             this.testlabel = new System.Windows.Forms.Label();
@@ -170,7 +170,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Set_DrinkPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Set_BurgerPic)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
-            this.nowMaking__panel.SuspendLayout();
+            this.nowMaking_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Making_Picture)).BeginInit();
             this.SuspendLayout();
             // 
@@ -1444,15 +1444,15 @@
             this.Set_Price.TabIndex = 5;
             this.Set_Price.Text = "label22";
             // 
-            // nowMaking__panel
+            // nowMaking_panel
             // 
-            this.nowMaking__panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(21)))), ((int)(((byte)(15)))));
-            this.nowMaking__panel.Controls.Add(this.Making_Picture);
-            this.nowMaking__panel.Controls.Add(this.pgbar1);
-            this.nowMaking__panel.Location = new System.Drawing.Point(382, 0);
-            this.nowMaking__panel.Name = "nowMaking__panel";
-            this.nowMaking__panel.Size = new System.Drawing.Size(828, 721);
-            this.nowMaking__panel.TabIndex = 29;
+            this.nowMaking_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(21)))), ((int)(((byte)(15)))));
+            this.nowMaking_panel.Controls.Add(this.Making_Picture);
+            this.nowMaking_panel.Controls.Add(this.pgbar1);
+            this.nowMaking_panel.Location = new System.Drawing.Point(382, 0);
+            this.nowMaking_panel.Name = "nowMaking__panel";
+            this.nowMaking_panel.Size = new System.Drawing.Size(828, 721);
+            this.nowMaking_panel.TabIndex = 29;
             // 
             // Making_Picture
             // 
@@ -1522,7 +1522,7 @@
             this.Controls.Add(this.detail_panel);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.MakeSet_panel);
-            this.Controls.Add(this.nowMaking__panel);
+            this.Controls.Add(this.nowMaking_panel);
             this.Controls.Add(this.SetDetail_panel);
             this.Controls.Add(this.DrinkDetail_panel);
             this.Controls.Add(this.DrinkMenu_panel);
@@ -1559,7 +1559,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Set_DrinkPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Set_BurgerPic)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
-            this.nowMaking__panel.ResumeLayout(false);
+            this.nowMaking_panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Making_Picture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1680,7 +1680,7 @@
         private System.Windows.Forms.PictureBox Set_DrinkPic;
         private System.Windows.Forms.Button Set_Remake;
         private System.Windows.Forms.Button Order;
-        private System.Windows.Forms.Panel nowMaking__panel;
+        private System.Windows.Forms.Panel nowMaking_panel;
         private System.Windows.Forms.ProgressBar pgbar1;
         private System.Windows.Forms.Label testlabel;
         private System.Windows.Forms.PictureBox Making_Picture;

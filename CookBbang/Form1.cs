@@ -29,7 +29,7 @@ namespace CookBbang
         Drink drinkForSet;
         Side sideForSet;
 
-        //SQL 연결 세팅
+        //로컬 DB 연결 세팅
         static string strConn = "Server=localhost;Database=burger;Uid=root;Pwd=1234;";
         MySqlConnection conn = new MySqlConnection(strConn);
 
@@ -42,37 +42,47 @@ namespace CookBbang
             InitializeComponent();
         }
 
+        //onCreate
         private void Form1_Load(object sender, EventArgs e)
         {
             InitProduct();
             PanelClear();
+
+            //버거 단품 메뉴 패널로 초기화면 세팅  
             menu_panel.Visible = true;
+            menu_panel.BringToFront();
         }
 
+        //제품을 눌렀을 때 발생하는 이벤트 함수.
         private void ListView_SelectedIndexChanged(object sender, EventArgs e)
         {
             ListView listView = sender as ListView;
 
             if (listView.SelectedItems.Count > 0)
             {
+                //선택된 제품의 Index를 key에 저장, 추후 해당 index의 버거 데이터를 불러오기 위함
                 int key = listView.SelectedItems[0].ImageIndex;
+                Console.WriteLine(key); //debug
 
-                //평범한 단품 리스트 뷰
+                //단품 리스트 뷰
                 if (listView.Name.Equals("WhopperListView")||listView.Name.Equals("GarlicBurgerListView") || listView.Name.Equals("BeefChickenListView") )
                 {
                     Burger burger = burgerData.burgers[key];
+                    //제품 세부사항 패널로 전환하는 함수
                     ShowBurgerData(burger);
                 }
 
                 else if (listView.Name.Equals("drink_ListView"))
-                {
+                { 
                     Drink drink = drinkData.drinks[key];
+                    //제품 세부사항 패널로 전환하는 함수
                     ShowDrinkData(drink);
                 }
 
                 else if (listView.Name.Equals("SideListView"))
                 {
                     Side side = sideData.sides[key];
+                    //제품 세부사항 패널로 전환하는 함수
                     ShowSideData(side);
                 }
 
@@ -99,18 +109,18 @@ namespace CookBbang
         }
 
 
-        //세트 만들기 클릭 시
-        private void btn_MakeSet_Click(object sender, EventArgs e) //ShowSetData
+        //세트 만들기 클릭 시 발생하는 함수
+        private void btn_MakeSet_Click(object sender, EventArgs e) 
         {
            
-            //세트 만들기에서 모두 선택이 되었으면.
+            //세트 만들기에서 모두 선택이 되었는지 검사.
             if(Burger_isSelected == true && Drink_isSelected == true && Side_isSelected == true)
             {
-                //세 개의 값을 합치고 
-                //show set panel 을 보여준다.
-                //이미지는 어떻게 이쁘게 보여주지...
-
-                //MessageBox.Show("Success");
+                /*
+                ===============
+                Convert 함수를 따로 만들어 분리 요망.
+                ===============
+                 */
                 double setForKcal = Convert.ToDouble(burgerForSet.nutrition.Kcal) + Convert.ToDouble(drinkForSet.nutrition.Kcal) + Convert.ToDouble(sideForSet.nutrition.Kcal);
                 double setForGram = Convert.ToDouble(burgerForSet.nutrition.gram) + Convert.ToDouble(drinkForSet.nutrition.gram) + Convert.ToDouble(sideForSet.nutrition.gram);
                 double setForProtein = Convert.ToDouble(burgerForSet.nutrition.protein) + Convert.ToDouble(drinkForSet.nutrition.protein) + Convert.ToDouble(sideForSet.nutrition.protein);
@@ -122,8 +132,7 @@ namespace CookBbang
                 string setName = burgerForSet.Name + " 세트";
                 int SetPrice = burgerForSet.price + drinkForSet.price + sideForSet.price;
 
-                //영어이름과 설명은 burgerData 그대로 사용
-
+                //선택된 세트의 세부사항 패널로 전환
                 PanelClear();
                 SetDetail_panel.Visible = true;
                 SetDetail_panel.BringToFront();
@@ -148,7 +157,7 @@ namespace CookBbang
                 SNutrition_Caffeine.Text = Convert.ToString(setForCaffeine);
                 
             }
-            else
+            else //세 개중 하나라도 선택이 되지 않았을 시 예외처리
             {
                 MessageBox.Show("메뉴 선택을 모두 완료한 후 다시 버튼을 눌러 주세요");
             }
@@ -158,69 +167,69 @@ namespace CookBbang
         //주문 확정 시
         private void Order_Click(object sender, EventArgs e)
         {
-            nowMaking__panel.Visible = true;
-            nowMaking__panel.BringToFront();
+            nowMaking_panel.Visible = true;
+            nowMaking_panel.BringToFront();
 
             new Thread(new ThreadStart(Thread_Progress)).Start();          
         }
 
+        //대리자 선언
         delegate void DoProgressDelegt();
         delegate void ProgressImgDelegt(int i);
-        delegate void AfterMake(int i);
 
+        //UI단을 건드리기 위한 쓰레드
         public void Thread_Progress()
         {
             const string ImgExtension = ".PNG";
 
             while (Index <= 110)    
             {
+                //프로그레스바 Value에 따라 제작과정 이미지 다르게 삽입 
                 if(Index % 20 == 0)
                 {
                     this.Invoke(new ProgressImgDelegt(PutImgInProgress), Index);
                 }
                     
-                this.Invoke(new AfterMake(SaveInDB), Index);
-
+                //프로그레스바 진행
                 this.Invoke(new DoProgressDelegt(() => pgbar1.PerformStep()));
                 Index++;
                 Thread.Sleep(50);
             }
-
+            //세트가 완성되었을 때
             if(Index > 109)
             {
                 Index = 0;
+                nowMaking_panel.Visible = false;
                 Invoke(new DoProgressDelegt(() => pgbar1.Value = 0));
+                SaveInDB();
             }
         }
         // Thread_Progress 쓰레드에서 PerformStep을 직접 실행하면 다른 작업이 멈추기 때문에 UI가 죽는다, 그렇기 때문에 대리자를 이용하여 PerformStep도 UI단 쓰레드에서 처리하도록 한다.
 
-        //버거가 완성되었을 때 완성된 버거의 데이터를 주문완료 db에 추가한다.
-        public void SaveInDB(int Index)
-        {
-            if (Index > 109)
+
+        //버거가 완성되었을 때 완성된 버거의 데이터를 주문완료 db에 추가하는 함수.
+        public void SaveInDB()
+        { 
+            try
             {
-                nowMaking__panel.Visible = false;
+                conn.Open();
+                String sql = "INSERT INTO savedburger (price, orderedName) " +
+                                "VALUES ('" + PriceForDB + "', '" + NameForDB + "')";
 
-                try
-                {
-                    conn.Open();
-                    String sql = "INSERT INTO savedburger (price, orderedName) " +
-                                    "VALUES ('" + PriceForDB + "', '" + NameForDB + "')";
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.ExecuteNonQuery();
+                conn.Close();
 
-                    MySqlCommand cmd = new MySqlCommand(sql, conn);
-                    cmd.ExecuteNonQuery();
-                    conn.Close();
-
-                    MessageBox.Show("DB SAVE SUCCESS");
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e.StackTrace);
-                }
-
+                MessageBox.Show("DB SAVE SUCCESS");
             }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.StackTrace);
+            }
+            
         }
 
+        // 세트 만드는 과정 이미지를 띄워줌, 마찬가지로 UI 단을 건드리기때문에 Thread_Progress에서 대리자로 실행해준다.
         public void PutImgInProgress(int Index)
         {
             const string ImgExtension = ".PNG";
@@ -233,6 +242,9 @@ namespace CookBbang
             MakeSet_panel.BringToFront();
         }
 
+
+        //------- 세부사항 패널 통일 필요 2018.05.18
+        //단품(사이드)클릭 시 실행되는 단품 세부사항 패널
         private void ShowSideData(Side side)
         {
             PanelClear();
@@ -257,7 +269,7 @@ namespace CookBbang
             NameForDB = side.EngName;
         }
 
-
+        //단품(음료)클릭 시 실행되는 단품 세부사항 패널
         private void ShowDrinkData(Drink drink)
         {
             PanelClear();
@@ -284,6 +296,7 @@ namespace CookBbang
             NameForDB = drink.EngName;
         }
 
+        //단품(버거)클릭 시 실행되는 단품 세부사항 패널
         private void ShowBurgerData(Burger burger)
         {
 
@@ -313,27 +326,31 @@ namespace CookBbang
             NameForDB = burger.EngName;
         }
 
+        //제품 목록들을 디자인단(Listview)에 넣는 함수
         private void InitProduct()
         {
-            
-            //Burger Image List
+            //Burger Image List를 WhopperListview로 할당, LargeImageList의 크기로 설정
             WhopperListView.LargeImageList = BurgerImgList;
+            //Burger Image List를 GarlicListview로 할당, LargeImageList의 크기로 설정
             GarlicBurgerListView.LargeImageList = BurgerImgList;
+            //Burger Image List를 BeefChikenListview로 할당, LargeImageList의 크기로 설정
             BeefChickenListView.LargeImageList = BurgerImgList;
             S_BurgerListView.LargeImageList = BurgerImgList;
             
-            //Drink Image List
+            //Drink Image List를 drink_ListView로 할당, LargeImageList의 크기로 설정
             drink_ListView.LargeImageList = DrinkImgList;
             S_DrinkListView.LargeImageList = DrinkImgList;
 
-            //Side Image List
+            //Side Image List를 SideListView로 할당, LargeImageList의 크기로 설정
             SideListView.LargeImageList = SideImgList;
             S_SideListView.LargeImageList = SideImgList;
 
 
-            //버거 추가
+            //버거를 ImageList에 추가
+            //BurgerData 클래스의 burgers List를 처음부터 돔
             foreach (Burger burger in burgerData.burgers)
             {
+                //해당 데이터의 카테고리가 와퍼일 때
                 if (burger.Category == "Whopper")
                 {
                     BurgerImgList.Images.Add(Image.FromFile(burger.imgPath));
@@ -343,11 +360,13 @@ namespace CookBbang
                     lvItem.ImageIndex = Index;
                     lvItem_1.ImageIndex = Index;
 
+                    //단품 패널에 추가
                     WhopperListView.Items.Add(lvItem);
+                    //세트 제작 패널에 추가
                     S_BurgerListView.Items.Add(lvItem_1);
                 }
-
-                else if(burger.Category == "GarlicSTK")
+                //해당 데이터의 카테고리가 갈릭스테이크일 때
+                else if (burger.Category == "GarlicSTK")
                 {
                     BurgerImgList.Images.Add(Image.FromFile(burger.imgPath));
 
@@ -356,10 +375,12 @@ namespace CookBbang
                     lvItem2.ImageIndex = Index;
                     lvItem2_1.ImageIndex = Index;
 
+                    //단품 패널에 추가
                     GarlicBurgerListView.Items.Add(lvItem2);
+                    //세트 제작 패널에 추가
                     S_BurgerListView.Items.Add(lvItem2_1);
                 }
-
+                //해당 데이터의 카테고리가 비프치킨일 때
                 else if (burger.Category == "BeefChicken")
                 {
                     BurgerImgList.Images.Add(Image.FromFile(burger.imgPath));
@@ -369,7 +390,9 @@ namespace CookBbang
                     lvItem3.ImageIndex = Index;
                     lvItem3_1.ImageIndex = Index;
 
+                    //단품 패널에 추가
                     BeefChickenListView.Items.Add(lvItem3);
+                    //세트 제작 패널에 추가
                     S_BurgerListView.Items.Add(lvItem3_1);
                 }
                 Index++;
@@ -384,11 +407,13 @@ namespace CookBbang
                 DrinkImgList.Images.Add(Image.FromFile(drink.imgPath));
 
                 ListViewItem drinkItem = new ListViewItem();
-                ListViewItem drinkItem_1 = new ListViewItem(); //makeset 패널의 listview 를 위해 만듦.
+                ListViewItem drinkItem_1 = new ListViewItem();
                 drinkItem.ImageIndex = Index;
                 drinkItem_1.ImageIndex = Index;
 
+                //단품 패널에 추가
                 drink_ListView.Items.Add(drinkItem);
+                //세트 제작 패널에 추가
                 S_DrinkListView.Items.Add(drinkItem_1);
 
                 Index++;
@@ -404,20 +429,18 @@ namespace CookBbang
                 ListViewItem sideItem = new ListViewItem();
                 ListViewItem sideItem_1 = new ListViewItem();
                 sideItem.ImageIndex = Index;
-                sideItem_1.ImageIndex = Index;
+                sideItem_1.ImageIndex = Index; 
 
+                //단품 패널에 추가
                 SideListView.Items.Add(sideItem);
+                //세트 제작 패널에 추가
                 S_SideListView.Items.Add(sideItem_1);
 
                 Index++;
             }
         }
 
-
-
-
-
-        //디자인 단. -----------------------------
+        //디자인 단.=========================================================================================
 
         public void PanelClear()
         {
@@ -427,7 +450,7 @@ namespace CookBbang
             DrinkDetail_panel.Visible = false;
             sidemenu_panel.Visible = false;
             SetDetail_panel.Visible = false;
-            nowMaking__panel.Visible = false;
+            nowMaking_panel.Visible = false;
         }
 
         // 패널 자동 종속 문제 때문에 BringToFront 함수로 해결.
@@ -439,10 +462,6 @@ namespace CookBbang
             Side_title.Load(@"images/LeftMenuImg/side_nonactive.png");
             Set_title.Load(@"images/LeftMenuImg/set_nonactive.png");
         }
-
-
-
-
 
         private void whopper_btn_MouseHover(object sender, EventArgs e)
         {

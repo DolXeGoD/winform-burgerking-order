@@ -19,7 +19,7 @@ namespace CookBbang
             }
             set
             {
-                name = value;   
+                name = value; //Data에서 Name이 넘어오면 제품이름 공백 제거등 2차 처리를 하기 위해 private string name에 1차 저장  
                 imgPath = Common.ProductRootPath + name.Replace(" ", string.Empty) + Common.ProductImgExtension;
                 BigImgPath = Common.ProductRootPath + name.Replace(" ", string.Empty) + Common.ProductImgExtension;
             }
